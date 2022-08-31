@@ -9,9 +9,20 @@ const user ={
         email: "john@gmail.com",
         password: "123456",
         calle:  "John",
+    },
+    envioMail: function (x, y ){
+        
+        if (x + y >=18){
+            console.log('es mayor de edad');
+        } else{
+            console.log('es menor  de edad');
+        }
+    
+
     }
+
 
      
 }
 
-console.log(user.adress.email);
+console.log(user.envioMail());
